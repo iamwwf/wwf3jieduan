@@ -1,0 +1,465 @@
+html,body{
+    height: 100%;
+}
+.contain{
+    width: 990px;
+    margin: auto;
+}
+#head{
+    .erji:hover{
+        display: block;
+    }
+    .erji{
+        display: none;
+    }
+}
+#main{
+    width: 100%;
+    height: 100%;
+    .wrap{
+        width: 100%;
+        height: 44px;
+        // background: #ccc;
+        .nav{
+            width: 100%;
+            height: 100%;
+            // background: #58c;
+            span{
+                img{
+                    margin-bottom: 4px;
+                }
+                a{
+                    color: #333;
+                    font-size: 12px;
+                } 
+            }
+            .arrow {
+                font-family: "宋体";
+                margin: 0 8px;
+                padding-left: 0;
+            }
+            // .linkhome {
+            //     background: url(../images/xiangqing_yw_home.png) no-repeat scroll 0 -2px transparent;
+            //     display: inline-block;
+            //     padding-left: 25px;
+            // }
+        }
+    }
+    .con1{
+        width: 100%;
+        height: 600px;
+        #picture{
+        width: 298px;
+        height: 298px;
+        // background: #ccc;
+        margin-right: 18px;
+        float: left;
+        
+        }
+        .text{
+        float: left;
+        width: 465px;
+        height: 300px;
+        // background: #ccc;
+        .detail_self{
+            float: left;
+            margin-right: 6px;
+            margin-top: 2px;
+            font-size: 15px;
+            line-height: 21px;
+            text-align: center;
+            width: 39px;
+            height: 21px;
+            color: #0193e8;
+            border: 1px solid #0193e8;
+        }
+        h1 {
+            margin-bottom: 10px;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: 'microsoft yahei';
+             color: #5E5E5E;
+        }
+        .red{
+            color: #e54948;
+            font-size: 12px;
+        }
+        .inf{
+            width: 465px;
+            height: 192px;
+            // background: red;
+            // overflow: hidden;
+            p{
+                display: inline-block;
+                margin-left: 13px;
+                margin-right: 89px;
+                span{
+                    display: inline-block;
+                }
+                .span1,
+                .span3{
+                    font: 12px tahoma,arial,"Microsoft Yahei",\5b8b\4f53;
+                    color: #5E5E5E;
+
+                }
+                .span2{
+                    color: #e72418;
+                    line-height: 22px;
+                    padding-top: 6px;
+                    padding-right: 6px;
+                    font-size: 24px;
+                }
+                .span4:hover{
+                    color: #e72418;
+                    text-decoration: underline;
+                    
+                }
+                .span4{
+                    line-height: 22px;
+                    padding-top: 6px;
+                    padding-right: 6px;
+                    font-size: 18px;
+                    color:#505050;
+                    cursor: pointer;
+                }
+            }
+            .guige{
+            width: 465px;
+            height: 43px;
+            margin-bottom: 15px;
+            margin-left: 16px;
+            margin-top: 15px;
+            
+            // background: green;
+            // .span2:hover{
+            //     border: 1px solid red;
+            // }
+            // .span3:hover{
+            //     border: 1px solid red;
+            // }
+            span{
+                width: 45px;
+                height: 32px;
+                display: inline-block;
+                // background: #58c;
+                text-align: center;
+                line-height: 32px;
+                font-size: 12px;
+                color: #5e5e5e;
+                border: 1px solid #e6e6e6;
+                }
+                .span1{
+                    border: none;
+                }
+            }
+            .choose{
+                width: 465px;
+                height: 184px;
+                // background: #e72418;
+                margin-left: 16px;
+                .span1{
+                    width: 45px;
+                    height: 32px;
+                    display: inline-block;
+                    // background: #58c;
+                    text-align: center;
+                    line-height: 32px;
+                    font-size: 12px;
+                    color: #5e5e5e;
+                    border: 1px solid #e6e6e6;
+                    border: none;
+                }
+                .span2{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    background: #fff;
+                    font-size: 12px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                .span3{
+                    display: inline-block;
+                    width: 70px;
+                    height: 30px;
+                    background-color: #f8f8f8;
+                    color: #5e5e5e;
+                    line-height: 30px;
+                    text-align: center;
+                    font-size: 12px;
+                    margin-left: -5px;
+                }
+                
+                
+               
+            }
+        }
+       
+
+        }
+        .erCode{
+           
+            float: right;
+            width: 189px;
+            border: 1px solid #e6e6e6;
+
+            .h3blue {
+                padding: 9px 13px;
+                line-height: 1.5;
+                background-color: #0083ce;
+                font-size: 14px;
+                color: #fff;
+                font-weight: 400;
+                margin: -1px -1px 0;
+                span{
+
+                    font-weight: 800;
+                }
+                a{
+                    color: #fff;
+                    font-size: 12px;
+                }
+            }
+            .fixed_property{
+                width: 189px;
+                height: 162px;
+                .erweima{
+                    
+                    padding: 13px 10px;
+                    overflow: hidden;
+                    zoom: 1;
+                    .d_app {
+                        text-align: center;
+                        font-weight: 700;
+                        a {
+                            color: #333;
+                            font-size: 12px;
+                        }
+                    }
+                    .erwei_img {
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+    
+    .detail{
+        width: 100%;
+        .detail_left{
+            float: left;
+            width: 180px;
+            
+            .info_box {
+                border: 1px solid #e6e6e6;
+                color: #5e5e5e;
+                line-height: 1.5;
+                margin-bottom: 10px;
+                h2 {
+                    background-color: #f7f7f7;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 8px 9px 9px;
+                    border-bottom: 1px solid #e6e6e6;
+                }
+                .info_list01 {
+                padding: 10px 0 20px;
+                li {
+                    float: left;
+                    padding: 7px 0 0 9px;
+                    width: 80px;
+                    height: 20px;
+                    overflow: hidden;
+                    zoom: 1;
+                    a:hover{
+                        color: red;
+                        text-decoration: underline;
+                    }
+                    a{
+                        font-size: 12px;
+                        color: #333;
+                    }
+                }
+                }
+                .recommend_ul {
+                    padding-bottom: 10px;
+                    overflow: hidden;
+                    margin-left: 15px;
+                    li {
+                        width: 145px;
+                        margin-top: 8px;
+                        a{
+                            img {
+                                display: inline-block;
+                                width: 145px;
+                                height: 145px;
+                                margin-bottom: 8px;
+                            }
+                            .intro {
+                                text-align: left;
+                                margin-bottom: 5px;
+                                line-height: 18px;
+                                height: 36px;
+                                overflow: hidden;
+                                font-size: 12px;
+                                color: #333;
+                            }
+                        }
+                        .price_part{
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #d00;
+                        }
+                    }
+                }
+            }
+            .left_ad{
+                a{
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .detail_right{
+            float: right;
+            width: 790px;
+            #detialMenu {
+                margin-bottom: 10px;
+                .detail_menu{
+                    border: 1px solid #e6e6e6;
+                    border-top: 2px solid#0083ce;
+                    background-color: #f7f7f7;
+                    width: 788px;
+                    zoom: 1;
+                    ul {
+                        font-size: 14px;
+                        float: left;
+                        li{
+                            float: left;
+                            a:hover {
+                                color: #0083ce;
+                                font-weight: 700;
+                                text-decoration: none;
+                            }
+                            a {
+                                color: #5e5e5e;
+                                display: block;
+                                width: 119px;
+                                text-align: center;
+                                line-height: 37px;
+                                height: 37px;
+                                zoom: 1;
+                            }
+                        }
+                        .on a{
+                            color: #0083ce;
+                            font-weight: 700;
+                            text-decoration: none;
+                            background: #fff;
+                            border-right: 1px solid #e6e6e6;
+                            border-left: 1px solid #e6e6e6;
+                            width: 118px;
+                            height: 38px;
+                            margin: 0 0 -1px -1px;
+                            position: relative;
+                        }
+                    }
+                }
+                .fix{
+                    position: fixed;
+                    top: 0;
+                }
+                .bp1{
+                    margin-top: 10px;
+                    width: 790px;
+                    height: 1680px;
+                    background-image: url(../images/xiangqingbp1.png);
+                }
+                .liuyan{
+                    width: 790px;
+                    height: 41px;
+                    border-bottom: 1px solid #e6e6e6;
+                    margin-bottom: -1px;
+                    margin-top: 5px;
+                    .eval_tab{
+                        width: 790px;
+                        height: 41px;
+                        li{
+                            float: left;
+                            line-height: 1.5;
+                            a {
+                                display: block;
+                                width: 110px;
+                                text-align: center;
+                                color: #5e5e5e;
+                                font-size: 14px;
+                                padding: 10px 0;
+                            }
+                            label{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .neiyong{
+                        width: 790px;
+                        height: 102px;
+                        .pageNavi {
+                            clear: both;
+                            margin-top: 40px;
+                            text-align: center;
+                            .view_no_result {
+                                padding: 30px 0;
+                                text-align: center;
+                                span {
+                                    display: inline-block;
+                                    line-height: 42px;
+                                    font-size: 14px;
+                                    color: #666;
+                                    i {
+                                        background: url(../images/xiangqing_message_icon.png) no-repeat 0 0;
+                                        width: 45px;
+                                        height: 42px;
+                                        display: inline-block;
+                                        float: left;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .shuru{
+                        width: 790px;
+                        height: 260px;
+                        .tips_box{
+                            width: 790px;
+                            height: 260px;
+                            textarea {
+                                width: 768px;
+                                height: 50px;
+                                border: 1px solid #e6e6e6;
+                                padding: 10px;
+                                background: 0 0;
+                                margin-bottom: 15px;
+                                resize: none;
+                                overflow-y: scroll;
+                            }
+                            .com_btn {
+                                display: block;
+                                width: 133px;
+                                margin: 0 auto;
+                                background-color: #e72418;
+                                color: #fff;
+                                padding: 5px 0 7px;
+                                font-size: 14px;
+                                text-align: center;
+                                float: right;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

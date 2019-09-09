@@ -1,0 +1,420 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 990px;
+    margin: auto;
+}
+#registered{
+    width: 100%;
+    height: 100%;
+    // background: #ccc;
+    position: relative;
+    // 头部开始
+    .head{
+        height: 98px;
+        overflow: hidden;
+        // background: #000;
+        .logo {
+            float: left;
+            margin-left: 10px;
+            img {
+                border: 0;
+            }
+        }
+    }
+    // 头部结束
+    .reg_wrap {
+        position: relative;
+        background: #fff url(https://s.maiyaole.com/images/passport/r_bg_02.png) no-repeat right bottom;
+        width: 988px;
+        min-height: 352px;
+        color: #5e5e5e;
+        border: #e6e6e6 1px solid;
+        border-top: #0083ce 2px solid;
+    //    height: 100px;
+        box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+        padding-bottom: 20px;
+        .lg_title {
+            font: 20px "microsoft yahei";
+            margin: 13px 0;
+            padding-left: 50px;
+            padding-right: 18px;
+            // color: #5e5e5e;
+            span {
+                float: right;
+                font-size: 12px;
+                margin-top: 7px;
+                font-family: \5b8b\4f53;
+                a:hover{
+                    text-decoration: underline;
+                }
+                .blue_link {
+                    color: #0083ce;
+                }
+            }
+        }
+        .reg_form {
+            padding-left: 100px;
+            padding-top: 5px;
+            // 账号框
+            .ie_myemail {
+                z-index: 99;
+                width: 342px;
+                height: 70px;
+                .tellnumber, .u_ps, .u_name, .u_email, .i_empty, .i_true, .i_false {
+                    background: url(https://s.maiyaole.com/images/passport/regest.png) no-repeat 0 0;
+                }
+                .form-control {
+                    display: block;
+                    width: 286px;
+                    height: 26px;
+                    padding: 6px 12px 6px 40px;
+                    font-size: 14px;
+                    line-height: 1.428571429;
+                    vertical-align: middle;
+                    background-color: transparent;
+                    border: 1px solid #0083ce;
+                    -webkit-appearance: none;
+                   
+                }
+                
+                
+                .i_empty{
+                    height: 16px;
+                    width: auto;
+                    float: right;
+                    padding-right: 25px;
+                    margin-top: -28px;
+                    display: none;
+                    font-size: 12px;
+                }
+                .i_empty {
+                    background-position: right -57px;
+                    // display: none;
+                }
+                .reg_form span {
+                    line-height: 24px;
+                    color: #a5a5a5;
+                }
+            }
+            // 密码框
+            .reg_row {
+                min-height: 70px;
+                // height: 70px;
+                width: 342px;
+                position: relative;
+                z-index: 1;
+                .form-control {
+                    display: block;
+                    width: 286px;
+                    height: 26px;
+                    padding: 6px 12px 6px 40px;
+                    font-size: 14px;
+                    line-height: 1.428571429;
+                    vertical-align: middle;
+                    background-color: transparent;
+                    border: 1px solid #e6e6e6;
+                    -webkit-appearance: none;
+                    background: url(https://s.maiyaole.com/images/passport/regest.png) no-repeat 0 0;
+                }
+                .u_ps {
+                    background-position: 8px -145px;
+                }
+                .u_name {
+                    background-position: 8px -114px;
+                }
+            }
+            // 确认密码框
+            .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+                // background-color: #cccccc;
+                cursor: not-allowed;
+            }
+            .psheight {
+                height: 60px;
+                .form-control {
+                    display: block;
+                    width: 286px;
+                    height: 26px;
+                    padding: 6px 12px 6px 40px;
+                    font-size: 14px;
+                    line-height: 1.428571429;
+                    vertical-align: middle;
+                    background-color: transparent;
+                    border: 1px solid #e6e6e6;
+                    -webkit-appearance: none;
+                    background: #f3f3f3;
+                    background: url(https://s.maiyaole.com/images/passport/regest.png) no-repeat 0 0;
+                }
+                .u_ps {
+                    background-position: 8px -145px;
+                    background-color: #fff;
+                }
+                #password2_tip {
+                    line-height: 24px;
+                    color: #a5a5a5;
+                    font-size: 12px;
+                }
+                #password2_error{
+                    line-height: 24px;
+                    color: red;
+                    font-size: 12px;
+                }
+            }
+            // 验证码
+            .verify_box {
+                height: 60px;
+                // position: relative;
+                .u_verify {
+                    width: 150px;
+                    margin-right: 10px;
+                    padding-left: 9px;
+                    padding-right: 9px;
+                    float: left;  
+                    background-position: -100px -100px;
+                }
+                
+                .i_true{
+                    height: 16px;
+                    width: auto;
+                    float: right;
+                    padding-right: 25px;
+                    // margin-top: -28px;
+                    background: url(https://s.maiyaole.com/images/passport/regest.png) no-repeat 0 0;
+                    
+                    background-position: right 2px;
+                    float: left;
+                    margin-left: -34px;
+                    margin-top: 12px;
+                }
+                .i_false {
+                    height: 16px;
+                    width: auto;
+                    float: right;
+                    padding-right: 25px;
+                    // margin-top: -28px;
+                    background: url(https://s.maiyaole.com/images/passport/regest.png) no-repeat 0 0;
+                    
+                    background-position: right -26px;
+                    float: left;
+                    margin-left: -34px;
+                    margin-top: 12px;
+                }
+               
+                .verifyimg {
+                    margin-left: 10px;
+                    float: left;
+                }
+                .verifylink:hover{
+                    text-decoration: underline;
+                }
+                .verifylink {
+                    float: left;
+                    margin-left: 10px;
+                    line-height: 40px;
+                    color: #0083ce;
+                    font-size: 12px;
+                }
+            }
+            // 短信验证
+            .btn_verify:hover{
+                background: #fff;
+            }
+            .btn_verify {
+                width: 120px;
+                border: 1px solid #E6E6E6;
+                display: block;
+                height: 38px;
+                overflow: hidden;
+                text-align: center;
+                line-height: 38px;
+                float: right;
+                margin-right: 20px;
+                background: #fff url(https://s.maiyaole.com/images/passport/btn_verify_bg.jpg) repeat-x left bottom;
+                font-size: 12px;
+                color: #333;
+            }
+            .error {
+                color: #e72418;
+                padding-top: 5px;
+                font-size: 12px;
+                line-height: 24px;
+            }
+            //文字和按钮部分
+            .reg_row {
+                min-height: 70px;
+                // _height: 70px;
+                width: 342px;
+                position: relative;
+                z-index: 1;
+                .checkbox {
+                    display: block;
+                    min-height: 20px;
+                    margin-top: 0px;
+                    margin-bottom: 6px;
+                    /* padding-left: 20px; */
+                    vertical-align: middle;
+                    // cursor: default;
+                    span{
+                        color: #a5a5a5;
+                        line-height: 12px;
+                        font-size: 12px;
+                        a:hover{
+                            text-decoration: underline;
+                        }
+                        a{
+                            color: #0083ce;
+                        }
+                    }
+                }
+                .btn:hover{
+                    background-color: #0083ce;
+                }
+                .btn {
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-weight: bold;
+                    text-align: center;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    background-image: none;
+                    border: 1px solid transparent;
+                    white-space: nowrap;
+                    padding: 6px 12px;
+                    font-size: 14px;
+                    line-height: 1.428571429;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    -o-user-select: none;
+                    user-select: none;
+                    background-color: #0099F1;
+                    width: 340px;
+                    border-bottom: #0083ce 2px solid;
+                    color: #fff;
+                    font: 16px "microsoft yahei";
+                    border-radius: 1px;
+                }
+            }
+            // 合作伙伴
+            .reg_row {
+                min-height: 70px;
+                // _height: 70px;
+                width: 342px;
+                position: relative;
+                z-index: 1;
+                p {
+                    margin-top: 10px;
+                    line-height: 24px;
+                    color: #5e5e5e;
+                    font-size: 12px;
+                }
+                .a_yhd, .a_zfb, .a_qq, .a_sina, .a_wlt, .a_wy {
+                    background: url(https://s.maiyaole.com/images/201306/images/private/img_zhifu.png) no-repeat left top;
+                    border: medium none;
+                    display: block;
+                    float: left;
+                    height: 39px;
+                    margin-right: 18px;
+                    width: 39px;
+                }
+                .a_yhd:hover {
+                    background-position: 0 -52px;
+                }
+                a.first {
+                    padding-left: 0;
+                    background-position: 0 0;
+                }
+                .a_zfb:hover {
+                    background-position: -48px -52px;
+                }
+                .a_zfb {
+                    background-position: -48px 0;
+                }
+                .a_qq:hover {
+                    background-position: -95px -52px;
+                }
+                .a_qq {
+                    background-position: -95px 0;
+                }
+                .a_sina:hover {
+                    background-position: -143px -52px;
+                }
+                .a_sina {
+                    background-position: -143px 0;
+                }
+                .a_wlt:hover {
+                    background-position: -241px -52px;
+                }
+                .a_wlt {
+                    background-position: -241px 0;
+                }
+                .a_wy:hover {
+                    background-position: -191px -52px;
+                }
+                .a_wy {
+                    background-position: -191px 0;
+                }
+            }
+        }
+    }
+    // 底部开始
+    .common_footer_simple{
+        // position: absolute;
+
+        // bottom: 0;
+        // line-height: 26px;
+        // text-align: center;
+        // color: #a5a5a5;
+        margin-top: 44px;
+
+        .bottom_link{
+            // padding: 30px 0 20px 0;
+            line-height: 26px;
+            text-align: center;
+            color: #a5a5a5;
+            p{
+                a:hover{
+                    text-decoration: underline;
+                    color: #333;
+                    }
+                a{
+                    display: inline-block;
+                    margin: 0 3px;
+                    color: #a5a5a5;
+                    font-size: 12px;
+                }
+            }
+        }
+        .copy_info{
+            // padding: 30px 0 20px 0;
+            line-height: 26px;
+            text-align: center;
+            color: #a5a5a5;
+            p{
+                font-size: 12px;
+                a:hover{
+                    text-decoration: underline;
+                }
+                a{
+                    display: inline-block;
+                    margin: 0 5px;
+                    color: #a5a5a5;
+                    font-size: 12px;
+                }
+                .copy_ico:before {
+                    background: url(../images/copy_ico.png) no-repeat 0 0;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    margin-left: 5px;
+                    margin-right: 3px;
+                    position: relative;
+                    top: 5px;
+                    content: "";
+                }
+            }
+        }
+    }
+}

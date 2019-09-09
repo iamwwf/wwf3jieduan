@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    
+</head>
+
+<body>
+    <div id="login">
+        <div class="content">
+            <!-- 头部开始 -->
+            <div class="head">
+                <a href="" class="logo">
+                    <img src="../images/yao_logo.png" alt="" id="yao_logo">
+                </a>
+            </div>
+            <!-- 头部结束 -->
+            <!-- 内容开始 -->
+            <div class="login_wrap">
+                <div class="tab_box clearfix">
+                    <div class="item cur" id="commonLoginTab">
+                        <a href="###">普通登录</a>
+                    </div>
+                    <div class="item" id="quickLoginTab">
+                        <a href="###">手机快速登陆</a>
+                    </div>
+                </div>
+                <div class="tab_con" id="commonLogin">
+                    <h2 class="lg_title">
+                        <span class="fr">
+                            还不是1药网会员？
+                            <a href="registered.html" class="blue_link">免费注册</a>
+                        </span>
+                        Hi，欢迎登录！
+                    </h2>
+                    <form action="" autocomplete="off">
+                        <div class="reg_row">
+                            <input type="text" id="userName" autocomplete="off" placeholder="邮箱/手机号/用户名" class="form-control u_name" tabindex="1">
+                            <span id="inf1"></span>
+
+                        </div>
+                        <div class="reg_row">
+                            <!-- 密码 -->
+                            <input type="password" id="userPassword" autocomplete="off" placeholder="登陆密码" class="form-control u_ps" tabindex="2">
+                            <span id="inf2"></span>
+                            <span class="fr">
+                                <a href="" tabindex="1" class="gray">忘记密码？</a>
+                            </span>
+
+                        </div>
+                        <div id="vcd_div" class="reg_row verify_box">
+                            <input type="text" maxlength="4" id="vcd" placeholder="验证码" class="form-control u_verify">
+                            <input type="button" value="ADDC" id="rancode" style="width: 40px; height: 40px;">
+                        </div>
+                        <!-- 登录按钮部分 -->
+                        <div>
+                            <label for="" class="checkbox">
+                                <input type="checkbox" value="1" id="rememberPwd" tabindex="-1">
+                                <span class="two_wwek">俩周免登录</span>
+                            </label>
+                            <button type="button" id="btnSubmit" class="btn btn-primary">登录</button>
+                            <br>
+                            <span id="login_desc" class="error"></span>
+                        </div>
+                        <!-- 文字部分 -->
+                        <div class="protocal_warm">
+                            <span class="two_wwek">
+                                登录即代表您已同意1药网
+                                <a href="" class="blue_link">《服务协议》</a>
+                                和
+                                <a href="" class="blue_link">《隐私条款》</a>
+                            </span>
+                        </div>
+                        <div class="reg_row hz_login">
+                            <p>使用合作伙伴账号登录：</p>
+                            <a href="" class="first a_wx"></a>
+                            <a href="" class="a_zfb"></a>
+                            <a href="" class="a_qq"></a>
+                        </div>
+                        <div class="moreWebDiv">
+                            <span class="moreWeb">
+                                更多合作网站
+                                <button class="moreWebBtn" style="background-position: -7px -7px"></button>
+                            </span>
+                            <div class="moreTab">
+                                <a href="" class="first a_yhd"></a>
+                                <a href="" class="a_sina"></a>
+                                <a href="" class="a_wlt"></a>
+                                <a href="" class="last a_wy"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- 快捷登录 -->
+                <!-- <div class="tab_con" id="quickLogin">
+                    <h2 class="lg_title">
+                        <span class="fr">
+                            还不是1药网会员？
+                            <a href="" class="blue_link">免费注册</a>
+                        </span>
+                        Hi,欢迎登录
+                    </h2>
+                    <div class="form_group pb35 clearfix">
+                        <label for="" class="lbs fl">
+                            <input type="text" class="txt phone" id="phoneNum4QuickLogin" placeholder="请输入您的手机号码">
+                        </label>
+                        <i id="phoneNum4QuickLogin_empty" class="i_empty" style="display: none;">不能为空</i>
+                        <span id="phoneNum4QuickLoginDesc" class="error"></span>
+                    </div>
+                </div> -->
+            </div>
+            <!-- 底部开始 -->
+            <div class="common_footer_simple">
+                <div class="bottom_link">
+                    <p>
+                        <a href="">关于111集团</a>
+                        |
+                        <a href="">关于1药网</a>
+                        |
+                        <a href="">关于1药城</a>
+                        |
+                        <a href="">Investor Relations</a>
+                        |
+                        <a href="">诚聘英才</a>
+                        |
+                        <a href="">直营实体药房</a>
+
+                    </p>
+                    <p>
+                        <a href="">互联网药品信息服务资格证</a>
+                        |
+                        <a href="">互联网药品交易资格证：粤C20150007</a>
+                        |
+                        <a href="">连锁营业执照</a>
+                        |
+                        <a href="">药品营业许可证</a>
+                        |
+                        <a href="">医疗器械许可证</a>
+                        |
+                        <a href="">食品经营许可证</a>
+                        |
+                        <a href="">GSP证书</a>
+                        |
+                        <a href="">ICP粤B2-20150066</a>
+                    </p>
+                </div>
+                <div class="copy_info">
+                    <p>
+                        1药网网上药店，国家药监局认证通过的合法网上药店，中国医药电子商务行业的开拓者领跑者。
+                        <a href="" style="color: #999;">粤ICP备12015869号-1</a>
+                    </p>
+                    <p>
+                        <span>Copyright(C)2010-2015 1药网版权所有</span>
+                        <span>
+                            <a href="" class="copy_ico"></a>
+                            <a href="">公安备案号 440104020000743
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/comment.js"></script>
+<script src="../js/wwfcomment.js"></script>
+
+
+<script>
+    (function () {
+        isok = false;
+        let userName = document.getElementById('userName');
+        let userPassword = document.getElementById('userPassword');
+        let btnSubmit = document.getElementById('btnSubmit');
+        let inf1 = document.getElementById('inf1');
+        let inf2 = document.getElementById('inf2');
+        let keep = document.getElementById('rememberPwd');
+        var rancode = document.getElementById('rancode');
+        rancode.onclick = function () {
+            rancode.value = ranCod();
+        }
+        
+        btnSubmit.onclick = () => {
+            let Name = userName.value;
+            let Psw = userPassword.value;
+            if (Name && Psw) {
+                //登录
+                ajax({
+                    type: 'post',
+                    url: '../api/login.php',//去写接口
+                    data: {
+                        name: Name,
+                        psw: Psw
+                    },
+                    success: str => {
+                        if (str == 'yes') {
+                            let oldname = getCookie('name');
+                            if (oldname) {
+                                alert('你已登录');
+                            } else {
+                                sCookie('name', Name, 7);
+                                sCookie('psw', Psw, 7);
+                                alert('登陆成功');
+                            }
+                            location.href = 'main.html';
+                        } else {
+                            alert('登录失败');
+                        }
+                    }
+                });
+            }
+           
+
+        }
+
+
+
+
+        
+    })();
+</script>
+
+</html>

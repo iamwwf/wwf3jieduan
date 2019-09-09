@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+list{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background: #1f262d;
+    width: 100%;
+    height: 50px;
+    /* font-size: 30px; */
+    line-height: 50px;
+    padding: 0 14px;
+    /* text-align: center; */
+}
+
+.header h1 {
+    float: left;
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.header h1 a {
+    display: block;
+    color: #A4D3EE;
+}
+
+.header .nav {
+    height: 100%;
+    float: left;
+    margin-left: 618px;
+    box-sizing: border-box;
+    /* width: 243px; */
+}
+
+.header .nav a {
+    display: block;
+    line-height: 50px;
+ 
+    /* box-shadow: 1px 0 0 1px #cccccc inset; */
+    float: left;
+    text-align: center;
+    color: #999999;
+}
+
+#admin{
+    width: 148px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+#quit{
+    width: 96px;
+    border-right: 1px solid #000000;
+}
+
+.search{
+    float: left;
+    /* width: 286px; */
+    height: 100%;
+    padding: 9px 15px;
+    box-sizing: border-box;
+}
+.search .ser{
+    height: 30px;
+}
+.search .ser input{
+    width: 220px;
+    height: 100%;
+    float: left;
+    border: none;
+}
+.search .ser span{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 100%;
+    background: url(../img/sou.png) no-repeat center center #28b779;
+}
+.content {
+    height: 800px;
+    width: 100%;
+    background: #cccccc;
+}
+
+.list {
+    width: 20%;
+    height: 100%;
+    background: #2e363f;
+    float: left;
+
+}
+
+
+
+.list .fatherbox {
+    /* height: 40px; */
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid black;
+    /* text-align: center; */
+    text-indent: 48px;
+}
+
+.list .fatherbox a{
+    /* height: 40px; */
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    /* text-align: center; */
+    position: relative;
+    text-indent: 48px;
+}
+.list .fatherbox a span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #28b779;
+    color: white;
+    text-indent: 0;
+    right: 22px;
+    top: 10px;
+}
+.active{
+    background: #27a9e3;
+    color: white;
+}
+.move{
+    background: #28b779;
+}
+.list li ul {
+    transition: all 2s;
+}
+#ulist li{
+    cursor: pointer;
+}
+/* .footer{
+    width: 100%;
+    height: 100px;
+    background:pink;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+} */
+.cleafix::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden
+}
+
+.con-right{
+    float: left;
+    width: 80%;
+}
+.r-top{
+    background: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.r-top span{
+    color: #cccccc;
+}
+#ifr {
+    width: 100%;
+    height: 800px;
+}

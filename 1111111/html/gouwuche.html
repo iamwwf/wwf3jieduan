@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/gouwuche.css">
+    <title>购物车</title>
+    <style>
+        .content {
+            width: 980px;
+        }
+
+        .header {
+            height: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head_top">
+            <div class="content">
+                <div class="top-menu">
+                    <ul class="top-list-left">
+                        <li class="collection">
+                            <a href="">
+                                <img src="../images/head_top1.png" alt="">
+                                <span class="top-txt1">收藏本站</span>
+                            </a>
+                        </li>
+                        <li class="city">
+                            <span class="top-txt2">发送至</span>
+                            <strong>上海</strong>
+                            <ul class="city_list">
+                                <li>
+                                    <em>A</em>
+                                    <a href="" class="active">安徽</a>
+                                </li>
+                                <li>
+                                    <em>B</em>
+                                    <a href="">北京</a>
+                                </li>
+                                <li>
+                                    <em>C</em>
+                                    <a href="">重庆</a>
+                                </li>
+                                <li>
+                                    <em>G</em>
+                                    <a href="">广东</a>
+                                    <a href="">广西</a>
+                                    <a href="">贵州</a>
+                                    <a href="">甘肃</a>
+                                </li>
+                                <li>
+                                    <em>F</em>
+                                    <a href="">福建</a>
+                                </li>
+                                <li>
+                                    <em>H</em>
+                                    <a href="">河北</a>
+                                    <a href="">河南</a>
+                                    <a href="">黑龙江</a>
+                                    <a href="">海南</a>
+                                    <a href="">湖南</a>
+                                    <a href="">湖北</a>
+                                </li>
+                                <li>
+                                    <em>J</em>
+                                    <a href="">江苏</a>
+                                    <a href="">吉林</a>
+                                    <a href="">江西</a>
+                                </li>
+                                <li>
+                                    <em>L</em>
+                                    <a href="">辽宁</a>
+                                </li>
+                                <li>
+                                    <em>N</em>
+                                    <a href="">内蒙古</a>
+                                    <a href="">宁夏</a>
+                                </li>
+                                <li>
+                                    <em>Q</em>
+                                    <a href="">青海</a>
+                                </li>
+                                <li>
+                                    <em>S</em>
+                                    <a href="">上海</a>
+                                    <a href="">山东</a>
+                                    <a href="">山西</a>
+                                    <a href="">四川</a>
+                                    <a href="">陕西</a>
+                                </li>
+                                <li>
+                                    <em>T</em>
+                                    <a href="">天津</a>
+                                </li>
+                                <li>
+                                    <em>X</em>
+                                    <a href="">西藏</a>
+                                    <a href="">新疆</a>
+                                </li>
+                                <li>
+                                    <em>Y</em>
+                                    <a href="">云南</a>
+                                </li>
+                                <li>
+                                    <em>Z</em>
+                                    <a href="">浙江</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="top-list-right">
+                        <li class="top-right1">
+                            <div class="login">
+                                <span>你好！</span>
+                                <a href="" class="login-btn">请登录</a>
+                                <a href="" class="registered-btn">注册</a>
+                            </div>
+                        </li>
+                        <li class="top-right2">
+                            <a href="">我的订单</a>
+                        </li>
+                        <li class="top-right3">
+                            <a href="">我的1药网</a>
+                            <ul class="more-list">
+                                <li>我的优惠劵</li>
+                                <li>我的收藏夹</li>
+                                <li>商品评价</li>
+                                <li>我的私人定制</li>
+                            </ul>
+                        </li>
+                        <li class="top-right4">
+                            <a href="">帮助中心</a>
+                        </li>
+                        <li class="top-right5">
+                            <a href="">在线客服</a>
+                        </li>
+                        <li class="top-right6">
+                            <span>400-007-0958</span>
+                        </li>
+                        <li class="top-right7">
+                            <span>
+                                <img src="../images/headtop_app.png" alt="">
+                                <a href="">手机app</a>
+                            </span>
+                            <div class="top-app">
+                                <img src="../images/headyop_Qrcode.png" alt="">
+                                <div class="top-txt3">
+                                    <p>1药网客户端</p>
+                                    <span>APP专享价更优惠</span>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <div class="content">
+            <h1 id="logo">
+                <a class="logo" href="">1药网
+                    <span class="i"></span>
+                </a>
+            </h1>
+        </div>
+
+    </div>
+    <div class="cart-main">
+        <div class="content">
+            <div class="cart-table-th">
+                <div class="wp">
+                    <div class="th th-chk">
+                        <div class="select-all J_SelectAll">
+                            <label>
+                                <label class="cart-checkbox  ">
+                                    <input type="checkbox">
+
+                                </label>
+                                全选
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="th th-item">
+                        商品信息
+                    </div>
+                    <div class="th th-price">
+                        金额
+                    </div>
+                    <div class="th th-amount">
+                        数量
+                    </div>
+                    <div class="th th-location">
+                        &nbsp;
+                    </div>
+                    <div class="th th-sum">
+                        小计
+                    </div>
+                    <div class="th th-op">
+                        操作
+                    </div>
+                </div>
+            </div>
+
+            <div class="orderHolder">
+                <!-- 店铺头 -->
+                <div class="itemHeShop clearfix">
+                </div>
+                <!-- 店铺商品 -->
+                <div id="gouwuList">
+
+                    <!-- <div class="item-body clearfix item-normal ">
+                        <ul class="item-content clearfix">
+                            <li class="td td-chk">
+                                <input type="checkbox">
+                            </li>
+                            <li class="td td-item">
+                                <div class="td-inner">
+                                    <div class="item-pic">
+                                        <img src="https://p4.maiyaole.com/img/item/201909/02/65_20190902103017528.jpg" class="itempic">
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="" class="item-title">
+                                            修正 番茄红素软胶囊 0.5g*60粒</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="td td-price">
+                                <div class="td-inner">
+                                   
+                                    65.0
+                                </div>
+                            </li>
+                            <li class="td td-amount">
+                                <div class="td-inner" limitbuy="0" catal="0">
+                                    <div class="item-amount">
+                                        
+                                        <input type="button" value="-" style="display: inline-block;
+                                        text-align: center; border: 1px solid #ccc;
+                                        width: 20px;
+                                        height: 20px;" class="jian">
+                                        <input type="text" value="1" class="txt" style="display: inline-block;
+                                        width: 32px;
+                                        height: 21px; text-align: center;">
+                                        
+                                        <input type="button" value="+" style="display: inline-block;
+                                        text-align: center; border: 1px solid #ccc;
+                                        width: 20px;
+                                        height: 20px;" class="jia">
+                                    </div>
+                                </div>
+
+
+
+                            </li>
+                            <li class="td td-location" style=" width:  207px;">
+
+                            </li>
+                            <li class="td td-sum" style="width: 115px;">
+                                <div class="td-inner red">
+
+                                    <p class="price">65.00</p>
+                                </div>
+                            </li>
+                            <li class="td td-op">
+                                <div class="td-inner">
+                                    <a href="###" class="deleteButton">删除</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div> -->
+                </div>
+
+                <!-- 店铺尾 -->
+                <div class="clearfix">
+                    <ul class="dianzongji">
+                        <li>件数
+                            <span class="red sum">0</span>
+                        </li>
+                        <li>商品金额
+                            <span class="red sumPrice">
+                                <b>¥</b>0.00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="float_bar clearfix car-bottom" style="position: relative;">
+                <ul class="cartOperation">
+                    <li>
+                        <input type="checkbox" class="allCheck">全选
+                    </li>
+                    <li class="operations">
+                        <a href="###">删除</a>
+                    </li>
+                </ul>
+
+                <ul class="c_pay">
+                    <li class="wrap_btn">
+
+
+                        <a class="btn_order goshopping" id="shoppingCart2Index" href="###">继续购物</a>
+                        <a class="btn_order" href="###">去结算</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/wwfcomment.js"></script>
+<script>
+    $(function () {
+        let list = document.getElementById('gouwuList');
+        // 渲染购物车
+        // 1.从sp表拿到商品的id
+        $.ajax({
+            type: "get",
+            url: "../api/cart.php",
+            success: function (str) {
+                let res = '';
+                let arr = JSON.parse(str);
+                arr.forEach(item => {
+                    $.ajax({
+                        type: "get",
+                        url: "../api/cart2.php",
+                        data: {
+                            uid: item.spid
+                        },
+                        success: function (str2) {
+                            let arr2 = JSON.parse(str2);
+                            console.log(arr2);
+                            res += arr2.map(function (item) {
+                                return `<div class="item-body clearfix item-normal  " data-id="${item.uid}">
+                        <ul class="item-content clearfix">
+                            <li class="td td-chk">
+                                <input type="checkbox">
+                            </li>
+                            <li class="td td-item">
+                                <div class="td-inner">
+                                    <div class="item-pic">
+                                        <img src="../images/${item.img}" class="itempic">
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="" class="item-title">
+                                            ${item.name}</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="td td-price">
+                                <div class="td-inner">
+                                   
+                                        ${item.price}
+                                </div>
+                            </li>
+                            <li class="td td-amount">
+                                <div class="td-inner" limitbuy="0" catal="0">
+                                    <div class="item-amount">
+                                        
+                                        <input type="button" value="-" style="display: inline-block;
+                                        text-align: center; border: 1px solid #ccc;
+                                        width: 20px;
+                                        height: 20px;" class="jian">
+                                        <input type="text" value="1" class="txt" style="display: inline-block;
+                                        width: 32px;
+                                        height: 21px; text-align: center;">
+                                        
+                                        <input type="button" value="+" style="display: inline-block;
+                                        text-align: center; border: 1px solid #ccc;
+                                        width: 20px;
+                                        height: 20px;" class="jia">
+                                    </div>
+                                </div>
+
+
+
+                            </li>
+                            <li class="td td-location" style=" width:  207px;">
+
+                            </li>
+                            <li class="td td-sum" style="width: 115px;">
+                                <div class="td-inner red">
+
+                                    <p class="price">${item.price}</p>
+                                </div>
+                            </li>
+                            <li class="td td-op">
+                                <div class="td-inner">
+                                    <a href="###" class="deleteButton">删除</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>`
+                            }).join('');
+
+                            $('#gouwuList').html(res);//要拼接，而不是覆盖
+                            // gouwuList.html += 该怎么写呢
+                            changnum();
+                        }
+                    })
+                })
+
+            }
+        })
+    })
+
+    function changnum() {
+        $('.item-amount .jia').click(function () {
+            console.log('找到了+节点');//没找到
+            let num = $(this).prev().val();
+            num++;
+            if (num > 10) {
+                $(this).prev().val('10');
+            } else {
+                $(this).prev().val(num);
+            }
+            let danjia = $(this).parent().parent().parent().prev().text();
+            let total = $(this).parent().parent().parent().next().next().find('.price').text();
+            // console.log(danjia);
+            // money($(this), num);
+            // checkbox2();
+            total = (danjia * num).toFixed(2);
+            console.log(total);
+            $(this).parent().parent().parent().next().next().find('.price').html(total);
+        })
+        $('.item-amount .jian').click(function () {
+            console.log('找到了节点');
+            let num = $(this).next().val();
+            num--;
+            if (num <= 1) {
+                num = 1;
+                $(this).next().val(num);
+            } else {
+                $(this).next().val(num);
+            }
+            let danjia = $(this).parent().parent().parent().prev().text();
+            let total = $(this).parent().parent().parent().next().next().find('.price').text();
+            // console.log(danjia);
+            // money($(this), num);
+            // checkbox2();
+            total = (danjia * num).toFixed(2);
+            console.log(total);
+            $(this).parent().parent().parent().next().next().find('.price').html(total);
+
+            // money($(this), num);
+            // checkbox2();
+        })
+        // 输入数字改变价格
+        $('#gouwuList').on('input', '.txt', function () {
+            let num = $(this).val();
+            if (num > 10) {
+                $(this).val('10');
+            } else if (num < 1) {
+                $(this).val('1');
+            } else {
+                $(this).val(num);
+            }
+            // money($(this), num);
+            // checkbox2();
+            let danjia = $(this).parent().parent().parent().prev().text();
+            let total = $(this).parent().parent().parent().next().next().find('.price').text();
+            // console.log(danjia);
+            // money($(this), num);
+            // checkbox2();
+            total = (danjia * num).toFixed(2);
+            console.log(total);
+            $(this).parent().parent().parent().next().next().find('.price').html(total);
+        })
+    }
+
+    //单删
+    $('#gouwuList').on('click', '.deleteButton', function () {
+        $(this).parent().parent().parent().parent().remove();
+        if($('#gouwuList .deleteButton').size() == 0){
+            $('.car-bottom').css('display','none');
+        }
+        // 获取data-id的值，删除对应的数据后再渲染页面 
+        let uid = $(this).parent().parent().parent().parent().data('id');
+        $.ajax({
+            type: "post",
+            url: "../api/del.php",
+            data: {
+                uid : uid
+            },
+            success: function(str){
+                if(str == 'yes'){
+                    alert('删除成功');
+                }
+            }
+        })
+    console.log(uid);
+    })
+
+    function checkedArr(){
+        let arr = [];
+        $('.td-chk input').each(function(index, item){
+            if($(item).prop('checked')){
+                arr.push(index);
+            }
+        });
+        return arr;
+    }
+
+    $('#gouwuList').on('click', '.td-chk input', function(){
+        let checkall = checkedArr();//被勾选
+        let num = 0;
+        let total2 = 0;
+        // 拿数值
+        checkall.forEach(function(item, index){
+            num += $('.txt').val() * 1; 
+            total2 += $('.price').eq(checkall[index]).text() * 1;
+        })
+        $('.sum').html(num);
+        $('.sumPrice').html(total2);
+        console.log(checkall)
+
+    })
+    //全删
+    let name = gCookie('name');
+    $('.operations').click(function () {
+        if (($('.allCheck').prop('checked') == true)) {
+            $.ajax({
+                type: 'get',
+                url: '../api/cart5.php',//清空数据
+                data: {
+                    order: name,
+                },
+                success: str => {
+                    if (str == 'yes') {
+                        alert('删除成功')
+                        location.reload();
+                    }
+                }
+            })
+        }
+        else {
+            alert('你并没有选中全部');
+        }
+    })
+
+
+    //全选
+    $('.allCheck').click(function () {
+            let istrue = $('.allCheck').prop('checked');
+            $('#gouwuList input').prop('checked', istrue);
+        });
+
+    // 全勾把全选也勾上
+    function checkAll2() {
+            let len = $('#gouwuList input').length;//原本的个数
+            let num = $('#gouwuList  input:checked').length;
+            if (len == num) {
+                //全选了
+                $('.allCheck').prop('checked', true);
+            } else {
+                $('.allCheck').prop('checked', false);
+            }
+        }
+        $('#gouwuList input').click(function () {
+            checkAll2();
+        });
+
+</script>
+
+</html>

@@ -1,0 +1,86 @@
+
+.aside{
+    position: fixed;
+    right: 45px;
+    bottom: 10px;
+    z-index: 100;
+    width: 52px;
+    // height: 256px;
+    .aside_icon1{
+    width: 52px;
+    cursor: pointer;
+    }
+    .aside_icon2:hover{
+        background: red;
+        div{
+            display: block;
+        }
+    }
+    .aside_icon3:hover{
+        background: red;
+        div{
+            display: block;
+        }
+    }
+    .aside_icon4:hover{
+        background: red;
+        div{
+            display: block;
+        }
+    }
+    .aside_icon5:hover{
+        background: red;
+        div{
+            display: block;
+        }
+    }
+    .aside_icon6:hover{
+        background: red;
+        div{
+            display: block;
+        }
+    }
+
+    a{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: #ccc;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        background-image: url(../images/common_sprite.png);
+        overflow: hidden;
+        float: left;
+       
+        div{
+            width: 100%; 
+            padding-top: 5px;
+            display: none;
+            
+            span{
+                color: #fff;
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+    .aside_icon2{
+        background-position: 0 -622px;
+    }
+    .aside_icon3{
+        background-position: -52px -725px;
+    }
+    .aside_icon4{
+        background-position: 0 -674px;
+    }
+    .aside_icon5{
+        background-position: 0 -777px;
+    }
+    .aside_icon6{
+        background-position: 0 -827px;
+    }
+
+        
+
+}

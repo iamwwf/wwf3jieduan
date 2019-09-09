@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registered</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/registered.css">
+</head>
+
+<body>
+    <div id="registered">
+        <div class="content">
+            <!-- 头部开始 -->
+            <div class="head">
+                <a href="" class="logo">
+                    <img src="../images/yao_logo.png" alt="" id="yao_logo">
+                </a>
+            </div>
+            <!-- 头部结束 -->
+            <!-- 内容开始 -->
+            <div class="wrap reg_wrap">
+
+                <h2 class="lg_title">
+                    <span class="fr">
+                        我已经注册，现在就
+                        <a href="login.html" class="blue_link">登录</a>
+                    </span>
+                    Hi, 欢迎注册！
+
+                </h2>
+                <div class="reg_form reg_form_step1">
+                    <!-- 手机号 -->
+                    <div class="reg_row ie_myemail">
+                        <input type="text" id="email" autocomplete="off" placeholder="手机号" class="form-control u_name empty" maxlength="100">
+                       
+                        <i class="i_empty" id="i_empty">不能为空</i>
+                       
+                    </div>
+                    <!-- 密码 -->
+                    <div class="reg_row">
+                        <input type="password" placeholder="登陆密码" class="form-control u_ps" id="password">
+                     
+                    </div>
+                    <!-- 确认密码 -->
+                    <div class="reg_row psheight">
+                        <input type="password" name="password2" id="password2" placeholder="确认密码" class="form-control u_ps u_ps2" maxlength="20" style="background-color: #fff;">
+                    
+                    </div>
+                    <!-- 验证码 -->
+                    <!-- <div class="reg_row verify_box" id="vCodeDiv">
+                        <input type="text" class="form-control u_verify" placeholder="验证码" id="validCode" name="validCode" 
+                        maxlength="4">
+                        <img align="验证码" class="verifyimg" id="valid_code_pic" src="../images/getSecurityCode.jpg">
+                        <a class="verifylink" onclick="return false" href="javascript:void(0);" id="changecode">换一张</a>
+                        <span id="vcd_desc" class="error"></span>
+                    </div> -->
+                    <!-- 短信验证
+                    <div class="reg_row verify_box" id="phoneCodeDiv" style="display: block;">
+                        原本时输入正确的手机号后显示
+                        <input type="text" style="width:160px" class="form-control u_verify" placeholder="短信验证" id="verifyCode" name="verifyCode"
+                            maxlength="6">
+                        <i class="i_false" id="verifyCode_false" style="display: inline"></i>
+                        <i class="i_true" id="verifyCode_true" style="display: none"></i>
+
+                        <a class="btn_verify" id="btnCode" href="javascript:void(0);">获取短信验证码</a>
+                        <span id="msgcd_desc" class="error" style="display: inline;">请输入验证码</span>
+                    </div> -->
+                    <!-- 文字和按钮部分 -->
+                    <div class="reg_row">
+
+                        <label class="checkbox">
+                            <span class="two_week">注册即代表您已同意1药网
+                                <a class="blue_link" href="">《服务协议》</a>和
+                                <a class="blue_link" href="">《隐私条款》</a>
+                            </span>
+                        </label>
+                        <button type="button" class="btn btn-primary" id="registerButton">立即注册</button>
+                    </div>
+                    <!-- 合作伙伴 -->
+                    <div class="reg_row hz_login">
+                        <p>使用合作伙伴账号登录：</p>
+                        <a class="first a_yhd" href=""></a>
+                        <a class="a_zfb" href=""></a>
+                        <a class="a_qq" href=""></a>
+                        <a class="a_sina" href=""></a>
+                        <a class="a_wlt" href=""></a>
+                        <a class="last a_wy" href=""></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部开始 -->
+            <div class="common_footer_simple">
+                <div class="bottom_link">
+                    <p>
+                        <a href="">关于111集团</a>
+                        |
+                        <a href="">关于1药网</a>
+                        |
+                        <a href="">关于1药城</a>
+                        |
+                        <a href="">Investor Relations</a>
+                        |
+                        <a href="">诚聘英才</a>
+                        |
+                        <a href="">直营实体药房</a>
+
+                    </p>
+                    <p>
+                        <a href="">互联网药品信息服务资格证</a>
+                        |
+                        <a href="">互联网药品交易资格证：粤C20150007</a>
+                        |
+                        <a href="">连锁营业执照</a>
+                        |
+                        <a href="">药品营业许可证</a>
+                        |
+                        <a href="">医疗器械许可证</a>
+                        |
+                        <a href="">食品经营许可证</a>
+                        |
+                        <a href="">GSP证书</a>
+                        |
+                        <a href="">ICP粤B2-20150066</a>
+                    </p>
+                </div>
+                <div class="copy_info">
+                    <p>
+                        1药网网上药店，国家药监局认证通过的合法网上药店，中国医药电子商务行业的开拓者领跑者。
+                        <a href="" style="color: #999;">粤ICP备12015869号-1</a>
+                    </p>
+                    <p>
+                        <span>Copyright(C)2010-2015 1药网版权所有</span>
+                        <span>
+                            <a href="" class="copy_ico"></a>
+                            <a href="">公安备案号 440104020000743
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+
+<script>
+    $(function () {
+        // 1.失去焦点时，若#email内容为空，i_empty为display:inline;
+        var isok1 = false
+        
+        //判断账号是否已经注册过
+        $('#email').blur(function () {
+            let shouji = $('#email').val();
+            console.log(shouji);
+            $.ajax({
+                type: 'post',
+                url:'../api/checkname.php',//去写接口
+                data:{
+                    name: $('#email').val()
+                },
+                success: str=>{
+ 
+                    if(str == 'yes'){
+                        //可以注册
+                        alert('可以注册');
+                        // isok1 = true;
+                    }else{
+                        // alert('账号已存在');
+                        // isok1 = true;
+                    }
+                }
+            })
+            if (shouji) {
+                let reg = /^1[3-9]\d{9}$/;
+                let res = reg.test(shouji);
+                if (res) {
+                    $('#i_empty').css('display', 'none');
+                    
+                    $('#i_true').css('display', 'inline');
+                    isok1 = true;
+                } else {
+                    // $('#i_empty').css('display', 'inline');
+                    // alert('格式不正确');
+                    isok1 = false;
+                }
+                console.log('isok1:' + isok1);
+            } else {
+                $('#i_empty').css('display', 'inline');
+                
+            }
+        });
+
+        // 2.设置密码.失去焦点时，若#password内容为空，passport_empty和passport_tip为display:inline;
+        var isok2 = false;
+        $('#password').blur(function () {
+            let mima = $('#password').val();
+            if (mima) {
+                let reg = /^\S{6,20}$/;
+                let res = reg.test(mima);
+                if (res) {
+                    isok2 = true;
+                } else {
+                    alert('格式不正确');
+
+                    isok2 = false;
+                }
+            } else {
+                isok2 = false;
+            }
+            console.log(isok2);
+        });
+
+        // 3.再次输入密码，失去焦点时，若#password2与#password不一致，#password2_desc为display:none;#password2_error为block
+        var isok3 = false;
+        $('#password2').blur(function () {
+            let mima = $('#password').val();
+            let mima2 = $('#password2').val();
+            if (mima == mima2) {         
+                isok3 = true;
+            } else {
+                // alert('密码不一致');
+                isok3 = false;
+            }
+        });
+
+        // 4.点击注册
+        $('#registerButton').click(function(){
+            if(isok1 && isok2 && isok3 == true){
+                $.ajax({
+                    type: 'get',
+                    url: '../api/registered.php',//写接口
+                    data: {
+                        name: $('#email').val(),
+                        psw: $('#password').val(),
+                        
+                    },
+                    success: str =>{
+                        console.log(str);
+                        if(str == 'yes'){
+                            alert('注册成功');
+                            location.href = 'login.html';
+                        }else{
+                            // alert('你已注册');
+                        }
+                    }
+                })
+            }
+        })
+       
+    });
+</script>
+
+
+</html>

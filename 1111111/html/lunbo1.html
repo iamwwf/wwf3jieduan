@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lunbo</title>
+    <!-- <link rel="stylesheet" href="../css/base.css"> -->
+    <link rel="stylesheet" href="../css/lunbo.css">
+    
+</head>
+
+<body>
+    <div id="box">
+        <!--图片列表-->
+        <div class="imglist">
+            <ul>
+                <!-- <li><img src="../images/index_lunobo2.jpg" alt=""></li>
+                <li><img src="../images/index_lunbo.jpg" alt=""></li>
+                <li><img src="../images/index_lunbo3.jpg" alt=""></li>
+                <li><img src="../images/index_lunbo4.jpg" alt=""></li>
+                <li><img src="../images/index_lunbo5.jpg" alt=""></li>
+                <li><img src="../images/index_lunbo6.jpg" alt=""></li> -->
+
+            </ul>
+        </div>
+        <!--焦点图-->
+        <p class="light">
+            <!-- <span class="active">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span> -->
+        </p>
+        <!--上下按钮-->
+        <div class="posibtn">
+            <p class="prev">&lt;</p>
+            <p class="next">&gt;</p>
+        </div>
+    </div>
+</body>
+<script src="../js/comment.js"></script>
+<script src="../js/lunbo1.js"></script>
+<script>
+    (function () {
+        rotationchart({
+            ele: 'box',//最外层id名(必选参数)
+            iw: 750,//盒子的宽和高(可选参数)
+            ih: 400,//盒子的宽和高(可选参数)
+            imgurl: ['../images/index_lunobo2.jpg', '../images/index_lunbo.jpg', '../images/index_lunbo3.jpg', '../images/index_lunbo4.jpg', '../images/index_lunbo5.jpg', '../images/index_lunbo6.jpg'],//图片数据(必选参数)
+            time: 2//切换图片的秒数(可选参数)
+        })
+    })();
+</script>
+
+</html>

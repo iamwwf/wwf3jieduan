@@ -1,0 +1,206 @@
+html,body{
+    height: 100%;
+}
+// .content{
+//     width: 1190px;
+//     margin: auto;
+// }
+#footer{
+    width: 100%;
+    // height: 500px;
+    // background: #f0f0f0;
+    .footer_icon{
+        width: 1190px;
+        height: 100px;
+        margin: auto;
+        background-image: url(../images/footer_p1.png);
+        // background:white;
+        margin-top: 63px;
+        background-repeat: no-repeat;
+    }
+    .app{
+        width: 1190px;
+        height: 98px;
+        margin: auto;
+        margin-top: 68px;
+        // background: #fff;
+        .footer_time{
+            width: 250px;
+            float: right;
+            border-left: 1px solid #eee;
+            text-align: center;
+            padding: 15px 0;
+            margin-right: 50px;
+            .tel{
+                font-size: 20px;
+                color: #c7a774;
+                font-weight: 800;
+            }
+        }
+        .footer_code{
+            float: left;
+            padding-left: 110px;
+            li{
+                width: 255px;
+                float: left;
+                img{
+                    width: 94px;
+                    height: 94px;
+                    float: left;
+                    margin-right: 12px;
+                }
+                .app_txt{
+                    h2{
+                        font-size: 15px;
+                        color: #1c1c1c;
+                        font-weight: bold;
+                        margin-bottom: 3px;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .footer_bottom{
+        width: 100%;
+        margin: auto;
+        height: 648px;
+        background: #f0f0f0;
+        padding-top: 64px;
+        .f-bottom1{
+            width: 1190px;
+            margin: auto;
+            height: 227px;
+            // background: pink;
+            position: relative;
+            // margin-top: 64px;
+            img{
+                position: absolute;
+                left: 0;
+                top: 30px;
+            }
+            .help_part{
+                border-bottom: 1px solid #e5e5e5;
+                padding-bottom: 25px;
+                overflow: hidden;
+                margin-left: 206px;
+                dl{
+                    width: 155px;
+                    float: left;
+                    dt{
+                        font-weight: bold;
+                        color: #1c1c1c;
+                        font-size: 15px;
+                        padding-bottom: 10px;
+                    }
+                    dd{
+                        line-height: 26px;
+                        a{
+                            color: #666;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .f-bottom2{
+            width: 1190px;
+            margin: auto;
+            height: 376px;
+            // background: #58c;
+            position: relative;     
+            .footer_icon2{
+                position: absolute;
+                left: 0;
+                top: 30px;
+            }
+            .f-bottom2-txt{
+                color: #5e5e5e;
+                text-align: center;
+                padding: 5px 0 30px;
+                margin-left: 295px;
+                .member{
+                    overflow: hidden;
+                    padding-top: 25px;
+                    .mark{
+                        font-size: 11px;
+                        color: #666;
+                        float: left;
+                        line-height: 56px;
+                        display: inline-block;
+                    }
+                    .mark-list{
+                        float: left;
+                        font-weight: bold;
+                        font-size: 14px;
+                        color: #333;
+                        text-align: left;
+                        margin-left: 15px;
+                        li{
+                            width: 270px;
+                            float: left;
+                            line-height: 56px;
+                            img{
+                                width: 56px;
+                                height: 56px;
+                                margin-right: 10px;
+                            }
+                            span{
+                                // width: 270px;
+                                // float: left;
+                                line-height: 56px;
+                            }
+                        }
+                    }
+                }
+                .bottom_link{
+                    text-align: left;
+                    line-height: 30px;
+                    padding-top: 30px;
+                    margin-left: -20px;
+                    p{
+                        a{
+                            margin: 0 20px;
+                            color: #666;
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .footer_inf{
+                    text-align: left;
+                    color: #999;
+                    line-height: 20px;
+                    padding-top: 15px;
+                    p{
+                        color: #999999;
+                        font-size: 11px;
+                        .police-icon{
+                            background-image: url(../images/copy_ico.png);
+                            width: 20px;
+                            height: 20px;
+                            display: inline-block;
+                            margin-left: 5px;
+                            margin-right: 3px;
+                            position: relative;
+                            top: 5px;
+                            content: "";
+
+                        }
+                        a{
+                            color: #999999;
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .footer_verify{
+                    background-image: url(../images/outherLogo_min.png);
+                    width: 869px;
+                    height: 53px;
+                    background-repeat: no-repeat;
+                    margin-top: 20px;
+                }
+            }
+            
+        }
+    }
+}

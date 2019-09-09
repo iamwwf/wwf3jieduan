@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/aside.css">
+</head>
+
+<body>
+    <div class="aside">
+        <img src="../images/doctor.png" alt="" class="aside_icon1">
+        <a href="" class="aside_icon2">
+            <div>
+                <span>在线</span>
+                <span>咨询</span>
+            </div>
+        </a>
+        <a href="" class="aside_icon3">
+            <div>
+                <span>需求</span>
+                <span>清单</span>
+            </div>
+        </a>
+        <a href="" class="aside_icon4">
+            <div>
+                <span>购物</span>
+                <span>车</span>
+            </div>
+        </a>
+        <a href="" class="aside_icon5">
+            <div>
+                <span>用户</span>
+                <span>反馈</span>
+            </div>
+        </a>
+        <a href="" class="aside_icon6" id="backTop">
+            <div>
+                <span>返回</span>
+                <span>顶部</span>
+            </div>
+        </a>
+    </div>
+</body>
+<script>
+    (function(){
+        var backTop = document.querySelector('#backTop');
+        var num = 180;
+        var timerid = setInterval(function () {
+            num -= 5;
+        }, 500);
+
+
+        backTop.onclick = function () {
+            var scrollTop = window.scrollY;
+            var timer = setInterval(function () {
+                scrollTop -= num;
+                if (scrollTop <= 0) {
+                    clearInterval(timer);
+                } else {
+                    window.scrollTo(0, scrollTop);
+                }
+            }, 30);
+        }
+    })();
+</script>
+</html>

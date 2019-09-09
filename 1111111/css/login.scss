@@ -1,0 +1,394 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 990px;
+    margin: auto;
+}
+#login{
+    width: 100%;
+    height: 100%;
+    // background: #ccc;
+    position: relative;
+    // 头部开始
+    .head{
+        height: 98px;
+        overflow: hidden;
+        // background: #000;
+        .logo {
+            float: left;
+            margin-left: 10px;
+            img {
+                border: 0;
+            }
+        }
+    }
+    // 头部结束
+    // 内容开始
+    .login_wrap {
+        position: relative;
+        background: #fff url(../images/l_bg_02.png) no-repeat left top;
+        width: 988px;
+        // height: 449px;
+        min-height: 335px;
+        color: #5e5e5e;
+        border: #e6e6e6 1px solid;
+        border-top: #0083ce 2px solid;
+        box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+        padding-top: 8px;
+        .tab_box {
+            height: 25px;
+            margin-left: 560px;
+            padding: 10px 0;
+            padding-top: 2px;
+            border-bottom: 1px solid #e2e2e2;
+            .item{
+                float: left;
+                position: relative;
+                width: 50%;
+                text-align: center;
+                font-size: 14px;
+                line-height: 25px;
+                a:hover{
+                    color: #0083ce;
+                }
+                a{
+                    color: #000;
+                    font-size: 12px;
+                }
+            }
+            .cur{
+                a{
+                    display: inline-block;
+                    height: 30px;
+                    width: 140px;
+                    color: #2C9EE1;
+                    border-bottom: 1px solid #2C9EE1;
+                }
+                
+            }
+        }
+        .tab_con {
+            margin-left: 560px;
+            padding: 0 30px;
+            .lg_title {
+                font-size: 16px;
+                padding: 0;
+                margin: 13px 0;
+                span{
+                    float: right;
+                    font-size: 12px;
+                    margin-top: 7px;
+                    font-family: \5b8b\4f53;
+                    a:hover{
+                        text-decoration:underline;
+                    }
+                    a.blue_link {
+                        color: #0083ce;
+                    }
+                }
+            }
+            form{
+                // 账号
+                .reg_row{
+                    min-height: 68px;
+                    width: 340px;
+                    position: relative;
+                    
+                    .u_name{
+                        background: url(../images/regest.png) no-repeat 0 0;
+                        background-position: 8px -114px;
+                    }
+                    #pas_empty{
+                        display: none;
+                    }
+                    .u_ps{
+                        background: url(../images/regest.png) no-repeat 0 0;
+                        background-position: 8px -145px
+                    }
+                    .form-control {
+                        display: block;
+                        width: 286px;
+                        height: 26px;
+                        padding: 6px 12px 6px 40px;
+                        font-size: 14px;
+                        line-height: 1.428571429;
+                        vertical-align: middle;
+                        background-color: transparent;
+                        border: 1px solid #e6e6e6;
+                        -webkit-appearance: none;
+                    }
+                    
+                    .fr{
+                        float: right;
+                        font-size: 12px;
+                        a:hover{
+                        text-decoration:underline;
+                        color: #0083ce;
+                        }
+                        a{
+                             color: #5e5e5e;
+                        }
+                       
+                    }
+                }
+                .verify_box {
+                    height: 60px;
+                    min-height: 60px;
+                    .u_verify {
+                        width: 150px;
+                        margin-right: 10px;
+                        padding-left: 10px;
+                        float: left;
+                    }
+                    .verifyimg {
+                        margin-left: 10px;
+                        float: left;
+                    }
+                    a:hover{
+                        text-decoration:underline;
+                        // color: #0083ce;
+                        }
+                    .verifylink {
+                        float: left;
+                        margin-left: 10px;
+                        line-height: 40px;
+                        color: #0083ce;
+                        font-size: 12px;
+                    }
+                }
+                div{
+                    .radio, .checkbox {
+                        display: block;
+                        min-height: 20px;
+                        margin-top: 0px;
+                        margin-bottom: 6px;
+                        padding-left: 20px;
+                        vertical-align: middle;
+                        font-size: 12px;
+                        color: #5e5e5e;
+                    }
+                    .checkbox input[type="checkbox"] {
+                        float: left;
+                        margin-left: -20px;
+                    }
+                    .btn{
+                        width: 326px;
+                        display: inline-block;
+                        margin-bottom: 0;
+                        font-weight: bold;
+                        text-align: center;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        background-image: none;
+                        border: 1px solid transparent;
+                        white-space: nowrap;
+                        padding: 6px 12px;
+                        font-size: 14px;
+                        line-height: 1.428571429;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        -o-user-select: none;
+                        user-select: none;
+                        background-color: #0099F1;
+                        // width: 340px;
+                        border-bottom: #0083ce 2px solid;
+                        color: #fff;
+                        font: 18px "microsoft yahei";
+                    }
+                    .error {
+                        color: #e72418;
+                        font-size: 12px;
+                    }
+                }
+                .protocal_warm {
+                    padding-top: 10px;
+                    span{
+                        color: #5e5e5e;
+                        font-size: 12px;
+                        a:hover{
+                            text-decoration: underline;
+                        }
+                        a.blue_link {
+                            color: #0083ce;
+                        }
+                    }
+                }
+                .hz_login {
+                    padding-bottom: 15px;
+                    clear: both;
+                    overflow: hidden;
+                    zoom: 1;
+                    p{
+                        font-size: 12px;
+                        margin-top: 5px;
+                        line-height: 24px;
+                        color: #5e5e5e;
+                    }
+                    a{
+                        background: url(https://s.maiyaole.com/images/201306/images/private/img_zhifu.png) no-repeat left top;
+                        display: block;
+                        float: left;
+                        height: 39px;
+                        margin-right: 18px;
+                        width: 39px;
+                        border: none;
+                    }
+                    .a_wx:hover{
+                        background-position: -294px -52px;
+                    }
+                    .a_zfb:hover{
+                        background-position: -48px -52px;
+                    }
+                    .a_qq:hover{
+                        background-position: -95px -52px;
+                    }
+                    .a_wx {
+                        background-position: -294px 0;
+                    }
+                    .a_zfb {
+                        background-position: -48px 0;
+                    }
+                    .a_qq {
+                        background-position: -95px 0;
+                    }
+                }
+                .moreWebDiv:hover{
+                    .moreTab{
+                        display: block;
+                    }
+                }
+                .moreWebDiv {
+                    cursor: pointer;
+                    display: inline-block;
+                    float: right;
+                    margin-right: 27px;
+                    margin-top: -52px;
+                    position: relative;
+                    z-index: 100;
+                    
+                    .moreWeb {
+                        cursor: pointer;
+                        float: right;
+                        display: block;
+                        margin-right: 11px;
+                        margin-top: 10px;
+                        // pointer: cursor;
+                        font-size: 12px;
+                        
+                        .moreWebBtn {
+                            cursor: pointer;
+                            width: 15px;
+                            height: 15px;
+                            margin-left: 5px;
+                            float: right;
+                            border: none;
+                            background: url(../images/upanddown.png) no-repeat left top;
+                            background-position: -7px -7px;
+                        }
+                    }
+                    
+                    .moreTab {
+                        // display: none;
+                        padding-top: 50px;
+                        padding-right: 112px;
+                        display: none;
+                        a{
+                            background: url(https://s.maiyaole.com/images/201306/images/private/img_zhifu.png) no-repeat left top;
+                            display: block;
+                            float: left;
+                            height: 39px;
+                            margin-right: 18px;
+                            width: 39px;
+                            border: none;
+                        }
+                        .a_yhd:hover {
+                            background-position: 0 -52px;
+                        }
+                        .a_sina:hover {
+                            background-position: -143px -52px;
+                        }
+                        .a_wlt:hover {
+                            background-position: -241px -52px;
+                        }
+                        .a_wy:hover {
+                            background-position: -191px -52px;
+                        }
+                        .a_yhd{
+                            background-position: 0 0;
+                        }
+                        .a_sina {
+                            background-position: -143px 0;
+                        }
+                        .a_wlt {
+                            background-position: -241px 0;
+                        }
+                        .a_wy {
+                            background-position: -191px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 底部开始
+    .common_footer_simple{
+        // position: absolute;
+
+        // bottom: 0;
+        // line-height: 26px;
+        // text-align: center;
+        // color: #a5a5a5;
+        margin-top: 44px;
+
+        .bottom_link{
+            // padding: 30px 0 20px 0;
+            line-height: 26px;
+            text-align: center;
+            color: #a5a5a5;
+            p{
+                a:hover{
+                    text-decoration: underline;
+                    color: #333;
+                    }
+                a{
+                    display: inline-block;
+                    margin: 0 3px;
+                    color: #a5a5a5;
+                    font-size: 12px;
+                }
+            }
+        }
+        .copy_info{
+            // padding: 30px 0 20px 0;
+            line-height: 26px;
+            text-align: center;
+            color: #a5a5a5;
+            p{
+                font-size: 12px;
+                a:hover{
+                    text-decoration: underline;
+                }
+                a{
+                    display: inline-block;
+                    margin: 0 5px;
+                    color: #a5a5a5;
+                    font-size: 12px;
+                }
+                .copy_ico:before {
+                    background: url(../images/copy_ico.png) no-repeat 0 0;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    margin-left: 5px;
+                    margin-right: 3px;
+                    position: relative;
+                    top: 5px;
+                    content: "";
+                }
+            }
+        }
+    }
+}
